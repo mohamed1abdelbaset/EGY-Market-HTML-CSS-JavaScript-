@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 26px;
+}
+
+:root {
+  --color1: #0d0d0d;
+  --color2: #ef9273;
+  --color3: #fef9f8;
+}
+
+/* nav bar */
+
+header {
+  background-color: var(--color2);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 1.8em;
+  display: block;
+  margin: 3px 0;
+  color: var(--color1);
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--color1);
+}
+
+#userData {
+  display: none;
+}
+
+/* login and register style */
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: var(--color2);
+  width: 30%;
+  align-items: center;
+  padding: 30px;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h2,
+input {
+  text-align: center;
+  margin: 10px;
+  width: 100%;
+  border: none;
+}
+
+input[type="submit"] {
+  width: 30%;
+  color: white;
+  background-color: var(--color1);
+  padding: 5px;
+}
